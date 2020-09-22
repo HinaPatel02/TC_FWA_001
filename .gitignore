@@ -1,0 +1,15 @@
+# ignore everything
+ExtentReports/*
+log/*
+Screenshots/*
+test-output/*
+
+
+
+# exception to the rule
+!ExtentReports/gitkeep
+!log/gitkeep
+!Screenshots/gitkeep
+!test-output/gitkeep
+
+/target/

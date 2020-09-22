@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.freshii.utilities.WebEventListener" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.freshii.testCases.TC_FWA_002" />
+		<!--<class name="com.freshii.testCases.TC_FWA_003" /> 
+			<class name="com.freshii.testCases.TC_FWA_016" />
+			<class name="com.freshii.testCases.TC_FWA_017" />
+			<class name="com.freshii.testCases.TC_FWA_018" />
+			<class name="com.freshii.testCases.TC_FWA_019" />
+			<class name="com.freshii.testCases.TC_FWA_046" />
+			<class name="com.freshii.testCases.TC_FWA_154" />
+			<class name="com.freshii.testCases.TC_FWA_155" />
+		 	<class name="com.freshii.testCases.TC_FWA_178" />  
+			<class name="com.freshii.testCases.FM_FreshiiLoginTest" />-->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
